@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+}
+.heading{
+    font-weight: 700;
+    font-size: 75px;
+    margin-top:100px;
+    margin-bottom: 20px;
+}
+.heading--sm{
+    font-size: 500;
+    font-size: 35px;
+}
+.btn:hover{
+    cursor: pointer;
+
+}
+.btn--sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 325px;
+    height:40px;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+}
+.btn--account{
+    background-color:rgb(29,155,240);
+    color:white
+}
+.homepage{
+    display: flex;
+}
+.homepage--left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.homepage--right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.image{
+    margin-top:100px;
+    width:50%;
+    height: 70%;
+}
+.logo{
+    width:20px;
+    height:20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+.or{
+    width: 325px;
+    height:40px;
+    margin-left:160px;
+}
+#google{
+   display: flex; 
+   flex-direction: row;
+}
+.btn--sign-in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 325px;
+    height:40px;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    text-align: center;
+    border: 1px solid white;
+    color:rgb(29,155,240);
+    border-radius: 50px;
+}
+.text--sm{
+    width: 325px;
+    height:40px;
+    margin: 0px;
+    margin-top:2px;
+    color: gray;
+}
+.copy{
+    margin-top:100px;
+    font-size: 10px;
+    display: flex;
+    color: gray;
+    align-items: center;
+    justify-content: center;
+}
